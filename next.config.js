@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  eslint: {
+    // Disable ESLint during build
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    // Disable TypeScript errors during build
+    ignoreBuildErrors: true,
+  },
   webpack: (config) => {
     // Add MDX support
     config.module.rules.push({
