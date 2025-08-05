@@ -134,7 +134,7 @@ export default function RaceInfoModal({ isOpen, onClose }: RaceInfoModalProps) {
         style={{
           backgroundColor: theme.colors.background,
           borderRadius: theme.borders.radius,
-          boxShadow: theme.effects?.shadow || '0 25px 50px -12px rgba(0, 0, 0, 0.25)'
+          boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)'
         }}
       >
         {/* Header */}
