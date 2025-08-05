@@ -1,0 +1,8 @@
+# This is a placeholder file for cyclist images
+# Actual cyclist images should be placed here:
+# - luca.png (Luca Moretti)
+# - jonas.png (Jonas Dahl)  
+# - mateo.png (Mateo Silva)
+# - kenji.png (Kenji Nakamura)
+
+# For now, we'll use a fallback in the component
